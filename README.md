@@ -33,5 +33,7 @@ last_pass_change.sh shows the number of days when user password was changed.
 If a user password was not changed >=90 days the script will report
 the following:
 date=2015-12-11;time=10-14;User=testuser;action=expired;lastChange=122d
+
 If password  is about to expire, the last 9 days (80-89) will report:
+
 date=2015-12-11;time=10-14;User=testuser;action=will_expired;lastChage=87d
